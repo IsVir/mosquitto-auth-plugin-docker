@@ -1,4 +1,5 @@
-# mosquitto-auth-plugin-docker
+# Mosquitto with auth-plug.so
+
 Dockerfile for building docker image with mosquitto & mosquitto auth plugin
 
 ## Supprted storages:
@@ -10,13 +11,19 @@ Dockerfile for building docker image with mosquitto & mosquitto auth plugin
 Create file with enviroment variables (.env)
 
 ```bash
+touch .env
+```
+
+Edit file with lines bellow
+
+```bash
 UID=1000 # User ID
 GID=1000 # Group ID
 CONFIG_PATH=/path/to/mosquitto.conf
 DATA_DIR=/path/to/mosquitto/stirage/directory
 ```
 
-Run commands:
+Run commands
 
 ```bash
 cd /path/to/Dockerfile
