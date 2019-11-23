@@ -1,8 +1,8 @@
-# Mosquitto with auth-plug.so
+# Mosquitto with auth plugin (auth-plug.so)
 
-Dockerfile for building docker image with mosquitto & mosquitto auth plugin
+Dockerfile for building docker image with mosquitto (mqtt server) & auth plugin
 
-## Supprted storages:
+## Suppoxsrted storages:
 
 * PostgreSQL
 
