@@ -2,7 +2,7 @@
 
 Dockerfile for building docker image with mosquitto (mqtt server) & auth plugin
 
-## Suppoxsrted storages:
+## Supported storages:
 
 * PostgreSQL
 
