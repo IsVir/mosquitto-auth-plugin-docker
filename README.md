@@ -26,7 +26,6 @@ DATA_DIR=/path/to/mosquitto/stirage/directory
 Run commands
 
 ```bash
-cd /path/to/Dockerfile
 docker build -t mosquitto-auth .
 docker-compose up
 ```
