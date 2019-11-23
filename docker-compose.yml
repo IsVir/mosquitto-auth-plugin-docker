@@ -1,4 +1,4 @@
-technoponica-mqtt:
+mosquitto-auth:
         image: mosquitto-auth:latest
         user: ${UID}:${GID}
         ports:
