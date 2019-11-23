@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+MAINTAINER Igor S. Chernyshev <i.s.chernyshev@gmail.com>
+
 ENV MOSQUITTO_VERSION="1.5.9"
 
 ADD https://mosquitto.org/files/source/mosquitto-$MOSQUITTO_VERSION.tar.gz /tmp
