@@ -7,7 +7,19 @@ Dockerfile for building docker image with mosquitto & mosquitto auth plugin
 
 ## Getting started
 
-cd /path/to/Dockerfile
-docker build -t IMAGE_NAME .
-docker-compose up
+Create file with enviroment variables (.env)
 
+```bash
+UID=1000 # User ID
+GID=1000 # Group ID
+CONFIG_PATH=/path/to/mosquitto.conf
+DATA_DIR=/path/to/mosquitto/stirage/directory
+```
+
+Run commands:
+
+```bash
+cd /path/to/Dockerfile
+docker build -t mosquitto-auth .
+docker-compose up
+```
