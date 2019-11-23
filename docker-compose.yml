@@ -1,0 +1,8 @@
+technoponica-mqtt:
+        image: mosquitto-auth:latest
+        user: ${UID}:${GID}
+        ports:
+                - "1883:1883"
+        volumes:
+                - ${CONFIG_PATH}:/mosquitto/config/mosquitto.conf
+                - ${DATA_DIR}:/mosquitto/data
